@@ -7,7 +7,6 @@
 body{
     background-image:url(space.jpeg);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-size: cover;
     color: white;
     max-width: 100%;
 }

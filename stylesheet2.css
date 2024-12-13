@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image:url(space.jpeg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    max-width: 100%;
+}
+
+.containerchar {
+    margin-block: 30px;
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    width: 97%;
+    height: auto;
+    border-radius: 0px 30px 30px 0px;
+    gap: 10%;       
+    margin-inline: 20px; 
+    padding: 20px;     
+    background-image: linear-gradient(to left, rgba(102, 252, 241, 0.4), rgba(11, 12, 16, 0.4));
+}
+
+.leftchar {
+    margin-left: 0px;
+    width: 340px;               
+    height: 480px;
+    background-color: transparent;
+}
+
+.centerchar {
+    width: 300px;               
+    height: 410px;
+}
+
+.righttext {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column; /* Stack the text vertically */
+    align-items: center; /* Center all items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    text-align: center; /* Center the text */
+    padding-right: 80px;
+}
+
+.righttext h1 {
+    margin: 0;
+    font-size: 2em; /* Adjust as needed */
+    text-align: center; /* Ensure the heading is centered */
+}
+
+.righttext h1:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.righttext p {
+    margin-top: 20px; /* Space between the heading and paragraph */
+    line-height: 1.6; /* Improve readability */
+    font-size: 18px; /* Adjust as needed for readability */
+    text-align: justify; /* Justify the paragraph text */
+    max-width: 380px; /* Ensure the paragraph doesn't stretch too wide */
+}
